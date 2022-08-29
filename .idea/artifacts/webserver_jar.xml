@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="webserver:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/webserver_jar</output-path>
+    <root id="archive" name="webserver.jar">
+      <element id="module-output" name="webserver" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" />
+      </element>
+    </root>
+  </artifact>
+</component>
